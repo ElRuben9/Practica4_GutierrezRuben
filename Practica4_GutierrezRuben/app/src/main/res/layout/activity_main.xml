@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D02B0B31"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/thecheezery" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome to The Cheezery!"
+        android:textColor="#EBEBEB"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Home of the most wonderful desserts ever\nseen (and tasted) by the human being."
+        android:textColor="#EBEBEB"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FE2BD0"
+        android:fontFamily="sans-serif-medium"
+        android:text="GET STARTED!"
+        android:textColor="#EBEBEB" />
+
+</LinearLayout>
